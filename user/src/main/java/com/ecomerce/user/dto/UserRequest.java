@@ -1,0 +1,14 @@
+package com.ecomerce.user.dto;
+
+import com.ecomerce.user.model.UserRole;
+import lombok.Data;
+
+@Data
+public class UserRequest {
+    private String firstName;
+    private String lastName;
+    private String email;
+    private String phone;
+    private UserRole role;
+    private AddressDto address;
+}
